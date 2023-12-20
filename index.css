@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.maindiv {
+    background-color: #fff;
+    height: 1500px;
+    width: 100%;
+}
+
+.nav {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    /* background-color:grey; */
+    /* background-image: linear-gradient(45deg,grey,rgba(184, 184, 197, 0.205),blue); */
+    background-image: linear-gradient(45deg,black,#221738a2 );  
+    /* background-image: linear-gradient(45deg,red,pink,black); */
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+li {
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 15px;
+    font-weight: 100;
+    transition-duration: 1s;
+    color: white;
+
+    /* border: 2px solid black; */
+    font-size: 17px;
+}
+
+.menu {
+    margin-left: 400px;
+    /* border: 2px solid black; */
+
+}
+
+.logo {
+    position: absolute;
+    left: 45px;
+    top: 13px;
+    border-radius: ;
+    /* border: 2px solid green; */
+}
+
+li:hover {
+    font-size: 18px;
+    font-weight: 900;
+    text-shadow: 0px 0px 0px 20px;
+    color: orange;
+}
+
+.iconmenu {
+    height: 60px;
+    width: 300px;
+    right: 0px;
+    /* border: 2px solid blue; */
+    position: absolute;
+}
+
+.cartLogo {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20px;
+    right: 55px;
+    /* border: 2px solid black; */
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+.wishLogo {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20px;
+    right: 120px;
+    /* border: 2px solid black; */
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+.loginLogo{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20px;
+    right: 185px;
+    /* border: 2px solid black; */
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+.wishLogo:hover{
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+}
+.cartLogo:hover {
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+}
+.loginLogo:hover{
+    height:40px;
+    width: 40px;
+    border: 3px solid black;
+}
+
+.mainSlider{
+    height: 570px;
+    width: 90%;
+    border: 10px solid darkgrey;
+    position: absolute;
+    top: 100px;
+    left: 85px;
+}
+
+#carouselExample{
+    height: 300px;
+    width: 1350px;
+}
+.carousel slide{
+    wi
+}
