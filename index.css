@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.maindiv {
+    /* background-color: #926a6a9b; */
+    background-color: white;
+    height: 1600px;
+    width: 100%;
+    /* background-image: url(bg.jpg); */
+}
+
+.nav {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    /* background-color:grey; */
+    /* background-image: linear-gradient(45deg,grey,rgba(184, 184, 197, 0.205),blue); */
+    background-image: linear-gradient(45deg, black, #221738a2);
+    /* background-image: linear-gradient(45deg,red,pink,black); */
+    /* border: 2px solid black; */
+    /* position: relative; */
+    position: fixed;
+    z-index: 1;
+}
+
+.toplist {
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 15px;
+    font-weight: 100;
+    transition-duration: 1s;
+    color: white;
+
+    /* border: 2px solid black; */
+    font-size: 17px;
+}
+
+.menu {
+    margin-left: 400px;
+    /* border: 2px solid black; */
+
+}
+
+.logo {
+    position: absolute;
+    left: 45px;
+    top: 13px;
+    border-radius: ;
+    /* border: 2px solid green; */
+}
+
+.name {
+    font-size: 40px;
+    position: absolute;
+    left: 150px;
+    top: 12px;
+    font-weight: bolder;
+    color: aliceblue;
+    /* text-shadow: 0px 0px 10px; */
+}
+
+.name2 {
+    font-size: 37px;
+    text-shadow: 0px 0px 30px;
+    color: aliceblue;
+    color-interpolation-filters: linearRGB;
+}
+
+.toplist:hover {
+    font-size: 18px;
+    font-weight: 900;
+    text-shadow: 0px 0px 0px 20px;
+    color: orange;
+    border-bottom: blue 5px solid;
+    /* text-shadow: 0px 0px 20px; */
+}
+
+.cartLogo {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20px;
+    right: 55px;
+    /* border: 2px solid black; */
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+.wishLogo {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20px;
+    right: 120px;
+    /* border: 2px solid black; */
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+.loginLogo {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20px;
+    right: 185px;
+    /* border: 2px solid black; */
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+.wishLogo:hover {
+    /* not work */
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+}
+
+.cartLogo:hover {
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+}
+
+.loginLogo:hover {
+    height: 40px;
+    width: 40px;
+     ! border: 3px solid black;
+}
+
+.mainSlider {
+    height: 680px;
+    /* height: 100vh; */
+    width: 100%;
+    border: 20px solid darkgrey;
+    position: relative;
+    top: 90px;
+    left: 0px;
+}
+
+#carouselExample {
+    height: 300px;
+    width: 100%;
+}
+
+
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.box {
+    width: 100px;
+    height: 400px;
+    margin: 80px 50px;
+    transition: width 0.3s ease;
+    position: absolute;
+    padding-left: 10px;
+
+
+}
+
+.box:hover img {
+    width: 1500px;
+    height: 100vh;
+    left: 0px;
+}
+
+.box img {
+    width: 100px;
+    height: 100vh;
+}
+
+.b1 {
+    /* padding-left: 20px; */
+    position: absolute;
+    margin-left: 0px;
+
+}
+
+.b2 {
+    /* padding-left: 20px; */
+    position: absolute;
+    margin-left: 60px;
+    height: 400px;
+}
+
+.b3 {
+    /* padding-left: 20px; */
+    position: absolute;
+    margin-left: 120px;
+}
+
+.b4 {
+    /* padding-left: 20px; */
+    position: absolute;
+    margin-left: 180px;
+}
+
+.b5 {
+    /* padding-left: 20px; */
+    position: absolute;
+    margin-left: 240px;
+}
+
+.strip {
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 800px;
+    /* display: flex; */
+    /* position: relative; */
+}
+
+.strip marquee {
+    /* top: 10px; */
+    padding-top: 10px;
+    height: 90px;
+    width: 100%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.mlogo {
+    position: absolute;
+    left: 0px;
+}
+
+.quote {
+    position: absolute;
+    left: 100px;
+    z-index: 2;
+    top: 8px;
+    font-size: 35px;
+    font-weight: 900;
+    /* vertical-align: middle; */
+}
+
+/* idhar nahi rakhne ka */
+/* GALLERY */
+
+.gallery {
+    /* padding: 250px; */
+    /* background-image: linear-gradient(45deg,rgba(255, 0, 0, 0.344),grey,grey,grey,rgba(0, 0, 255, 0.475)); */
+    margin-top: 200px;
+    /* background-image: linear-gradient(45deg,black,whitesmoke,black); */
+    padding: 50px;
+    display: flex;
+    /* font-weight: 900; */
+}
+
+.galleryItem {
+    flex: 1;
+    /* width: 33.33% */
+    padding: 15px;
+}
+
+.galleryTitle {
+    font-weight: 900;
+}
+
+.galleryImage {
+    width: 100%;
+    /* font-weight: bolder; */
+}
+
+/* NEW SEASON */
+
+.newSeason {
+    display: flex;
+}
+
+.nsItem {
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.nsItem1 {
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 10%;
+
+}
+
+
+.nsImage {
+    width: 100%;
+    height: 500px;
+}
+
+.nsTitle {
+    font-size: 2.5rem;
+}
+
+.nsButton {
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footerMenuTitle {
+    font-size: 22px;
+    margin-left: 0px;
+}
+
+.footerMenuList {
+    padding: 0;
+    list-style: none;
+}
+
+
+.footerListItem {
+    margin-bottom: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.footerListItem:hover {
+    font-weight: bolder;
+}
+
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerInput {
+    padding: 5px;
+}
+
+.footerButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+
+.footerIcons {
+    display: flex;
+}
+
+.footerIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.copyright {
+    /* font-weight: 900; */
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 20px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .navBottom {
+        flex-wrap: wrap;
+    }
+
+    .menuItem {
+        margin: 20px;
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+
+    .slider {
+        clip-path: none;
+    }
+
+    .sliderImage {
+        width: 90%;
+    }
+
+    .sliderBgCircle {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sliderTitle {
+        display: none;
+    }
+
+    .sliderPrice {
+        top: unset;
+        bottom: -50;
+        left: 0;
+        background-color: lightgrey;
+        font-size: 2.25rem;
+    }
+
+    .buyButton {
+        right: 0;
+        top: 0;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .product {
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productImage {
+        width: 80%;
+    }
+
+    .productDetails {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+
+    .productTitle {
+        font-size: 3.125rem;
+        margin: 0;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .newSeason {
+        flex-direction: column;
+    }
+
+    .nsItem:nth-child(2) {
+        padding: 50px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLeft {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .footerRight {
+        padding: 20px;
+        width: 90%;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .payment {
+        width: 90%;
+        padding: 20px;
+    }
+}
