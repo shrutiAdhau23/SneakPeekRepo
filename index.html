@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adidas Home</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="maindiv">
+    <div class="nav">
+      <div class="logo">
+        <img src="logo1.png" alt="brand logo" onclick="fnhome()" target="self">
+      </div>
+      <div>
+        <span class="name">A<span class="name2">didas</span></span>
+      </div>
+      <div class="menu">
+        <li class="toplist" onclick="fn1()">LIFESTYLE</li>
+        <li class="toplist" onclick="fn2()">SPORTS</li>
+        <li class="toplist" onclick="fn1()">KIDS</li>
+        <li class="toplist" onclick="fn2()">WOMEN</li>
+        <li class="toplist" onclick="fn1()">MEN</li>
+      </div>
+      <div class="iconmenu">
+        <li>
+          <img src="cart.png" alt="cart logo" class="cartLogo">
+          <img src="wishlist.png" alt="wish logo" class="wishLogo">
+          <img src="login.png" alt="cart logo" class="loginLogo" onclick="f1()">
+        </li>
+      </div>
+    </div>
+
+
+    <div class="mainSlider">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="aage.png" class="d-block w-100" alt="img3" height="640px" width="820px">
+          </div>
+          <div class="carousel-item active">
+            <img src="f1.png" class="d-block w-100" alt="img1" height="640px" width="820px">
+          </div>
+          <div class="carousel-item">
+            <img src="f2.png" class="d-block w-100" alt="img2" height="640px" width="820px">
+          </div>
+          <div class="carousel-item">
+            <img src="f3.png" class="d-block w-100" alt="img3" height="640px" width="820px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <div class="strip">
+      <marquee behavior="scroll" direction="left" scrollamount="15">
+        <div class="mlogo"><img src="logo1.png" alt=""></div>
+        <div class="quote">THE WORLD IS AT YOUR FEET, SO MAKE SURE YOU ARE WEARING GREAT SHOES. </div>
+      </marquee>
+    </div>
+    <!-- idhar rakhne ka -->
+    <!-- Gallery -->
+    <div class="gallery">
+      <div class="galleryItem">
+        <h1 class="galleyTitle">Be Yourself</h1>
+        <img
+          src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          alt="" class="galleryImage" />
+      </div>
+      <div class="galleryItem">
+        <img
+          src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          alt="" class="galleryImage" />
+        <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+      </div>
+      <div class="galleryItem">
+        <h1 class="galleryTitle">Just Do it</h1>
+        <img
+          src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          alt="" class="galleryImage" />
+      </div>
+    </div>
+    <!-- New Season -->
+
+    <div class="newSeason">
+      <div class="nsItem">
+        <img src="s2.png" alt="" class="nsImage" />
+      </div>
+      <div class="nsItem">
+        <div class="nsItem1">
+          <h3 class="nsTitleSmall">WINTER NEW ARRIVALS</h3>
+          <h1 class="nsTitle">New Season</h1>
+          <h1 class="nsTitle">New Collection</h1>
+          <a href="#nav">
+            <button class="nsButton"><a href="index.html" style="text-decoration: none; color: black;">CHOOSE YOUR
+                STYLE</a></button>
+          </a>
+        </div>
+      </div>
+      <div class="nsItem">
+        <img src="s1.png" alt="" class="nsImage" />
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footerLeft">
+        <div class="footerMenu">
+          <h1 class="footerMenuTitle">About Us</h1>
+          <ul class="footerMenuList">
+            <li class="footerListItem">Company</li>
+            <li class="footerListItem">Contact</li>
+            <li class="footerListItem">Careers</li>
+            <li class="footerListItem">Affiliates</li>
+            <li class="footerListItem">Stores</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h1 class="footerMenuTitle">Useful Links</h1>
+          <ul class="footerMenuList">
+            <li class="footerListItem">Support</li>
+            <li class="footerListItem">Refund</li>
+            <li class="footerListItem">FAQ</li>
+            <li class="footerListItem">Feedback</li>
+            <li class="footerListItem">Stories</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h1 class="footerMenuTitle">Products</h1>
+          <ul class="footerMenuList">
+            <li class="footerListItem">Air Force</li>
+            <li class="footerListItem">Air Jordan</li>
+            <li class="footerListItem">Blazer</li>
+            <li class="footerListItem">Crater</li>
+            <li class="footerListItem">Hippie</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerRight">
+        <div class="footerRightMenu">
+          <h1 class="footerMenuTitle">Subscribe to our newsletter</h1>
+          <div class="footerMail">
+            <input type="text" placeholder="your@email.com" class="footerInput" />
+            <button class="footerButton">Join</button>
+          </div>
+        </div>
+        <div class="footerRightMenu">
+          <h1 class="footerMenuTitle">Follow Us</h1>
+          <div class="footerIcons">
+            <img src="facebook.png" alt="" class="footerIcon" />
+            <img src="twitter.png" alt="" class="footerIcon" />
+            <img src="instagram.jpg" alt="" class="footerIcon" />
+            <img src="whatapp.jpg" alt="" class="footerIcon" />
+          </div>
+        </div>
+        <div class="footerRightMenu">
+          <span class="copyright">Made by <a title="Pavan Biradar" class="owner" style="text-decoration: none; font-size: x-large;
+            color: black;
+            font-weight: bolder;">P</a>
+            <a title="Abhijit Dahagaonkar" class="owner" style="text-decoration: none; font-size: x-large;
+            color: black;
+            font-weight: bolder;">A</a>
+            <a title="Shital Jadhao" class="owner" style="text-decoration: none; font-size: x-large;
+            color: black;
+            font-weight: bolder;">S</a>
+            <a title="Shruti Adhau" class="owner" style="text-decoration: none; font-size: x-large;
+            color: black;
+            font-weight: bolder;">S</a>. All rights reserved. 2023</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function f1() {
+        open("LoginPage.html");
+      }
+      function fn1() {
+        open("mens.html");
+      }
+      function fn2() {
+        open("women.html");
+      }
+      function fnhome() {
+        open("index.html");
+      }
+
+    </script>
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="Icon" href="https://cdn-icons-png.flaticon.com/512/5084/5084218.png">
+</head>
+
+<body>
+    <div class="mdiv">
+        <div class="login_form" align="centre">
+            <form autocomplete="off">
+                <input type="text" name="username" placeholder="USERNAME" id="un">
+                <input type="password" name="password" placeholder="PASSWORD" id="pwd">
+                    <input type="checkbox" class="ck">
+                    <label style="color: white;">Remember me</label>
+                    <a class="c_link" href="#">Forgot Password</a>
+                 
+                <input type="button" name="LOGIN" value="LOGIN" onclick="submitForm()">
+                <a class="c" href="signup.html">Create an Account</a>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let un1 = "Pavan354";
+        let pwd1 = "Pavan@354";
+        function submitForm() {
+            let un2 = document.getElementById("un").value;
+            let pwd2 = document.getElementById("pwd").value;
+
+            if (un1 == un2 && pwd1 == pwd2) {
+                open("index.html");
+            }
+            else {
+                alert("Invalid Credential");
+            }
+        }
+    </script>
+</body>
+
+</html>
